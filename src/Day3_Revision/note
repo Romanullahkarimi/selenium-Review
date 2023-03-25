@@ -1,0 +1,13 @@
+Xpath:
+Absolute Xpath[/html/body/div[1]/div[1]/div[1]/div/div/div/div[2]/div/div[1]/form/div[1]/div[1]/input]
+ we should not use it , always start with /
+
+Relative Xpath:[custom xpath] its start with // slash
+farmola
+1//tagName[@attributeName='value']
+2.//tagName[text()='innerText']
+3.//tagName[contains(@attribute, 'value']
+
+
+//a[starts-with(text(),'Amazon')]
+its used when we want to check multiple webelement which has amazon word
